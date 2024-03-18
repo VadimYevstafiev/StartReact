@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Content />
+      <Content count={5}/>
     </div>
   );
 }
